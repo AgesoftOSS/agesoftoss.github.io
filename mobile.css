@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url('./fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('./fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url('./fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./fonts/Montserrat-Bold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "JetbrainsMono";
+    src: url('./fonts/JetBrainsMono-Regular.ttf');
+}
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    header {
+        display: block !important;
+    }
+
+    .mainpagearticle, .aboutpagehead, .aph2, .aph3 {
+        padding: 30px 20px !important;
+    }
+
+    .mpahead {
+        font-size: 30px;
+    }
+
+    .aphhead {
+        font-size: 20px;
+    }
+
+    .mpatxt, .aphtxt {
+        font-size: 16px !important;
+    }
+
+    .ihead {
+        font-size: 20px;
+    }
+
+    .projects {
+        margin: 20px !important;
+        display: block !important;
+    }
+}

@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "Entertainmasters-Sans";
+    src: url('./fonts/EM-SANS.ttf');
+}
+
+@font-face {
+    font-family: "Oswalt";
+    src: url('./fonts/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Product-Sans";
+    src: url('./fonts/Product\ Sans\ Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url('./fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url('./fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url('./fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./fonts/Montserrat-Bold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "JetbrainsMono";
+    src: url('./fonts/JetBrainsMono-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(35,35,35)
+}
+
+.centre {
+    text-align: center;
+}
+
+li > a {
+    font-size: 20px;
+    font-family: "Product-Sans";
+}
+
+header > li, a {
+    list-style: none;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20,20,20);
+    padding: 15px 5%;
+}
+
+.logo, .logo:visited {
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: "Montserrat";
+    transition: 0.1s;
+}
+
+.logo:hover, a:hover {
+    opacity: 70%;
+}
+
+.nav_links li {
+    display: inline-block;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+
+a, a:visited {
+    color: white;
+}
+
+footer {
+    background-color: rgb(20,20,20);
+}
+
+.footsections {
+    text-align: center;
+    display: flex;
+    margin: 0px 100px;
+}
+
+.footsec, .sociallink {
+    flex: 1;
+}
+
+.feetsec {
+    color: rgb(210,210,210);
+    margin-top: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.footlink, .sociallink {
+    font-family: "Roboto";
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.copyright {
+    margin: 30px 0px;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.ihead {
+    text-align: center;
+    color: white;
+    margin: 50px 30px;
+    font-size: 40px;
+    font-family: "Montserrat";
+}
+
+.projects {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.project {
+    margin: 10px;
+    padding: 20px;
+    background: rgb(15,15,15);
+    border-radius: 15px;
+}
+
+.projectname, .projectshortdesc {
+    color: rgb(230,230,230);
+    font-family: "Montserrat";
+}
+
+.projectname {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.projectshortdesc {
+    font-family: "Montserrat-Light";
+    margin-bottom: 50px;
+}
+
+.projectbtn, .normalbtn {
+    background: #3070c9;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 69px;
+    font-family: "Montserrat";
+    margin: 0px 10px;
+}
+
+.normalbtn {
+    margin: -5px;
+}
+
+.projbtnrepo {
+    background: rgb(20,20,20);
+    border: solid rgb(65,65,65) 2px;
+}
+
+.itxt {
+    color: white;
+    font-family: "Montserrat-Regular";
+    margin: 50px;
+}
+
+.mainpagearticle {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/Internet.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px;
+}
+
+.mpahead, .aphhead, .aphhead2 {
+    font-family: "JetbrainsMono";
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.mpatxt, .aphtxt {
+    font-family: "Montserrat-Regular";
+    font-size: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.aboutpagehead {
+    padding: 120px;
+    background: darkorange;
+}
+
+.aph2 {
+    text-align: center;
+    padding: 120px;
+    background: rgb(64, 64, 253);
+}
+
+.aph3 {
+    text-align: right;
+    padding: 120px;
+    background: rgb(11, 180, 115);
+}
+
+.aphhead2 {
+    font-family: "Montserrat";
+    color: white;
+}
+
+.aphhead {
+    color: rgb(20,20,20);
+    font-family: "Montserrat";
+}
