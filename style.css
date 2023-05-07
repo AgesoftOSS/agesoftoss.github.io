@@ -179,6 +179,12 @@ footer {
     margin: 0px 10px;
 }
 
+.projectsection {
+    margin-left: 80px;
+    font-family: "Montserrat";
+    color: white;
+}
+
 .normalbtn {
     margin: -5px;
 }
@@ -207,6 +213,10 @@ footer {
     color: white;
     font-size: 40px;
     margin-bottom: 15px;
+}
+
+.mpahead {
+    font-family: "Entertainmasters-Sans";
 }
 
 .mpatxt, .aphtxt {
