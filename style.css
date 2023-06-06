@@ -171,12 +171,17 @@ footer {
 }
 
 .projectbtn, .normalbtn {
-    background: #3070c9;
+    background: #2e5fff;
     border: none;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 69px;
     font-family: "Montserrat";
     margin: 0px 10px;
+    transition: 0.15s;
+}
+
+button:hover {
+    opacity: 70%;
 }
 
 .projectsection {
