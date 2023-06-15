@@ -2,13 +2,13 @@ const Footer = document.getElementById("footer")
 const Header = document.getElementById("header")
 
 const HeaderHTML = `
-<a href="index.html" class="logohref">
+<a href="../index.html" class="logohref">
             <p class="logo">Agesoft</p>
 </a>
         <ul class="nav_links">
-            <li><a href="about.html">About</a></li>
-            <li><a href="solutions.html">Solutions</a></li>
-            <li><a href="projects.html">Projects</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../solutions.html">Solutions</a></li>
+            <li><a href="../projects.html">Projects</a></li>
         </ul>
 `
 

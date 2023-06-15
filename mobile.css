@@ -39,7 +39,7 @@
         display: block !important;
     }
 
-    .mainpagearticle, .aboutpagehead, .aph2, .aph3 {
+    .mainpagearticle, .aboutpagehead, .aph2, .aph3, .ac_productheader {
         padding: 30px 20px !important;
     }
 
@@ -65,6 +65,14 @@
 
     .projects {
         margin: 20px !important;
+        display: block !important;
+    }
+
+    .solutioninfo, .green_box, .red_box {
+        margin: 30px !important;
+    }
+
+    .desktop_flex {
         display: block !important;
     }
 }

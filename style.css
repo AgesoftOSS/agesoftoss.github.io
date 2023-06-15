@@ -76,12 +76,12 @@ header {
     padding: 15px 5%;
 }
 
-.logo, .logo:visited {
+.logo {
     color: white;
     cursor: pointer;
     font-size: 30px;
     font-family: "Montserrat";
-    transition: 0.1s;
+    transition: 0.25s;
 }
 
 .logo:hover, a:hover {
@@ -100,6 +100,14 @@ a, a:visited {
 
 footer {
     background-color: rgb(20,20,20);
+}
+
+.roundbtn {
+    padding: 10px 20px;
+    border-radius: 69px;
+    font-family: "Montserrat";
+    margin: 0px 10px;
+    transition: 0.15s;
 }
 
 .footsections {
@@ -171,17 +179,12 @@ footer {
 }
 
 .projectbtn, .normalbtn {
-    background: #2e5fff;
+    background: #1f75ff;
     border: none;
-    padding: 10px 20px;
-    border-radius: 69px;
-    font-family: "Montserrat";
-    margin: 0px 10px;
-    transition: 0.15s;
 }
 
-button:hover {
-    opacity: 70%;
+.normalbtn:hover, .projectbtn:hover {
+    background: #1955b5;
 }
 
 .projectsection {
@@ -197,6 +200,10 @@ button:hover {
 .projbtnrepo {
     background: rgb(20,20,20);
     border: solid rgb(65,65,65) 2px;
+}
+
+.projbtnrepo:hover {
+    opacity: 70%;
 }
 
 .itxt {
@@ -256,4 +263,62 @@ button:hover {
 .aphhead {
     color: rgb(20,20,20);
     font-family: "Montserrat";
+}
+
+.solutioninfo {
+    text-align: center;
+    padding: 15px;
+    margin: 30px 300px;
+    background: #0d3c61;
+    border: solid 2px #1c7dc7;
+    font-family: "Montserrat";
+    color: #339ae8;
+    border-radius: 5px;
+}
+
+.ac_productheader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/Internet.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px;
+    font-family: "Montserrat";
+    color: white;
+}
+
+.phname {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.phdesc {
+    margin-bottom: 30px;
+}
+
+.green_box {
+    text-align: center;
+    padding: 15px;
+    margin: 30px 300px;
+    background: #0e6322;
+    border: solid 2px #29ba4b;
+    font-family: "Montserrat";
+    color: #29ba4b;
+    border-radius: 5px;
+}
+
+.red_box {
+    text-align: center;
+    padding: 15px;
+    margin: 30px 300px;
+    background: #991414;
+    border: solid 2px #fc3f3f;
+    font-family: "Montserrat";
+    color: #fc3f3f;
+    border-radius: 5px;
+}
+
+.desktop_flex {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
 }
