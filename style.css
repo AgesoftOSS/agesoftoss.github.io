@@ -59,7 +59,7 @@ body {
 }
 
 li > a {
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Product-Sans";
 }
 
@@ -88,9 +88,14 @@ header {
     opacity: 70%;
 }
 
+.nav_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
 .nav_links li {
     display: inline-block;
-    justify-content: space-around;
     padding: 0px 20px;
 }
 
@@ -145,7 +150,7 @@ footer {
 .ihead {
     text-align: center;
     color: white;
-    margin: 50px 30px;
+    margin: 30px 30px;
     font-size: 40px;
     font-family: "Montserrat";
 }
@@ -209,7 +214,7 @@ footer {
 .itxt {
     color: white;
     font-family: "Montserrat-Regular";
-    margin: 50px;
+    margin: 20px;
 }
 
 .mainpagearticle {
@@ -227,6 +232,13 @@ footer {
     margin-bottom: 15px;
 }
 
+.aphbig {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
 .mpahead {
     font-family: "Entertainmasters-Sans";
 }
@@ -234,34 +246,17 @@ footer {
 .mpatxt, .aphtxt {
     font-family: "Montserrat-Regular";
     font-size: 20px;
-    color: white;
+    color: rgb(220,220,220);
     margin-bottom: 30px;
 }
 
-.aboutpagehead {
-    padding: 120px;
-    background: darkorange;
-}
-
-.aph2 {
-    text-align: center;
-    padding: 120px;
-    background: rgb(64, 64, 253);
-}
-
-.aph3 {
-    text-align: right;
-    padding: 120px;
-    background: rgb(11, 180, 115);
-}
-
-.aphhead2 {
-    font-family: "Montserrat";
-    color: white;
+.aboutpagehead2 {
+    background: black;
+    padding: 80px 120px;
 }
 
 .aphhead {
-    color: rgb(20,20,20);
+    color: rgb(220,220,220);
     font-family: "Montserrat";
 }
 
@@ -321,4 +316,41 @@ footer {
     margin: 50px;
     display: grid;
     grid-template-columns: auto auto;
+}
+
+.skyscrapperbackground {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/skyscrappers.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 120px;
+}
+
+.numbergrid {
+    text-align: center;
+    justify-content: center;
+    font-family: "Montserrat";
+    color: rgb(220,220,220);
+    display: flex;
+}
+  
+.number {
+    margin: 10px 100px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.numbernum {
+    font-size: 60px;
+}
+
+.numbertext {
+    font-size: 40px;
+}
+
+.ihead_2 {
+    color: white;
+    margin: 10px 60px;
+    font-size: 20px;
+    font-family: "Montserrat-Regular";
 }

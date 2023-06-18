@@ -15,7 +15,7 @@ const HeaderHTML = `
 const FooterHTML = `
 <div class="footsections">
             <div class="footsec">
-                <p class="feetsec">About Agesoft:</p>
+                <p class="feetsec">Company:</p>
                 <a href="https://entertainmasters.github.io/carriers.html" class="footlink">Carriers</a><br>
             </div>
 

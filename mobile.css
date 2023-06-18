@@ -39,7 +39,7 @@
         display: block !important;
     }
 
-    .mainpagearticle, .aboutpagehead, .aph2, .aph3, .ac_productheader {
+    .mainpagearticle, .aboutpagehead, .aboutpagehead2, .aph2, .aph3, .ac_productheader {
         padding: 30px 20px !important;
     }
 
@@ -47,8 +47,8 @@
         font-size: 30px;
     }
 
-    .aphhead {
-        font-size: 20px;
+    .aphhead, .aphhead2, .aphbig {
+        font-size: 20px !important;
     }
 
     .mpatxt, .aphtxt {
@@ -74,5 +74,22 @@
 
     .desktop_flex {
         display: block !important;
+    }
+
+    .numbergrid {
+        display: block !important;
+    }
+
+    .projectsection {
+        text-align: center;
+        margin-left: 0px !important;
+    }
+
+    .numbernum {
+        font-size: 30px !important;
+    }
+    
+    .numbertext {
+        font-size: 20px !important;
     }
 }
