@@ -63,6 +63,10 @@ li > a {
     font-family: "Product-Sans";
 }
 
+li > a:hover {
+   text-decoration: underline;
+}
+
 header > li, a {
     list-style: none;
     text-decoration: none;
@@ -218,7 +222,7 @@ footer {
 }
 
 .mainpagearticle {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/Internet.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./src/MainPageGif.gif');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -319,7 +323,7 @@ footer {
 }
 
 .skyscrapperbackground {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/skyscrappers.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./src/skyscrappers.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -353,4 +357,17 @@ footer {
     margin: 10px 60px;
     font-size: 20px;
     font-family: "Montserrat-Regular";
+}
+
+.mpahref {
+    border-radius: 0px;
+    background: transparent;
+    border: solid 2px #382cbf;
+    transition: 0.2s;
+}
+
+.mpahref:hover {
+   opacity: 100%;
+   background: rgb(0,0, 30);
+   border: solid 2px #0d3c61;
 }
