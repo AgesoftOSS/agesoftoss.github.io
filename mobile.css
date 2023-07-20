@@ -39,12 +39,43 @@
         display: block !important;
     }
 
-    .mainpagearticle, .aboutpagehead, .aboutpagehead2, .aph2, .aph3, .ac_productheader {
+    .mainpagearticle, .aboutpagehead, .aboutpagehead2, .aph2, .aph3, .ac_productheader, .learningheader {
         padding: 30px 20px !important;
     }
 
     .mpahead {
-        font-size: 30px;
+        font-size: 30px !important;
+    }
+
+    .learninghead {
+        font-size: 20px !important;
+    }
+
+    .learninghead2 {
+        margin-top: 30px !important;
+    }
+
+    .learninghead2, .learninghead3 {
+        margin: 0px;
+        text-align: center;
+        font-size: 25px !important;
+    }
+
+    .linkssection {
+        margin: 20px;
+    }
+
+    .linkk, .linksecs, .normallink {
+        font-size: 16px !important;
+    }
+
+    .linksecs > a {
+        font-size: 16px !important;
+    }
+
+    .learningtext {
+        margin: 20px 15px;
+        font-size: 14px !important;
     }
 
     .aphhead, .aphhead2, .aphbig {

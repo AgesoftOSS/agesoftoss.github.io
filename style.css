@@ -155,7 +155,7 @@ footer {
     text-align: center;
     color: white;
     margin: 30px 30px;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Montserrat";
 }
 
@@ -310,9 +310,9 @@ footer {
     padding: 15px;
     margin: 30px 300px;
     background: #991414;
-    border: solid 2px #fc3f3f;
+    border: solid 2px #ff4f4f;
     font-family: "Montserrat";
-    color: #fc3f3f;
+    color: #ff4f4f;
     border-radius: 5px;
 }
 
@@ -370,4 +370,90 @@ footer {
    opacity: 100%;
    background: rgb(0,0, 30);
    border: solid 2px #0d3c61;
+}
+
+.learninghead {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.learninghead2, .learninghead3 {
+    font-family: "Montserrat";
+    color: white;
+    font-size: 30px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.learninghead3 {
+    text-align: left;
+    margin: 60px 0px 0px 100px;
+}
+
+.learningheader {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./src/learningbackground.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+.learningtext {
+    font-family: "Montserrat-Regular";
+    color: white;
+    font-size: 18px;
+    margin: 20px 100px;
+}
+
+.learningtext > b {
+    font-family: "Montserrat";
+}
+
+.licensinglink {
+    text-align: right;
+    margin: 30px;
+}
+
+.licenselink, .licenselink:visited {
+    color:#339ae8;
+    font-family: "Montserrat-Regular";
+    text-decoration: underline;
+}
+
+/*.linkssection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}*/
+
+.linkssection {
+    margin: 0px 100px;
+}
+
+.normallink:hover {
+    text-decoration: underline;
+}
+
+.linkk {
+    margin: 10px 0px;
+}
+
+.normallink, .normallink:visited {
+    transition: 0.2s;
+    color:#339ae8;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+
+.mpahref2 {
+    border-radius: 0px;
+    background: transparent;
+    border: none;
+    transition: 0.2s;
+}
+
+.learninglectionarrow, .learninglectionarrow:visited {
+    color: #1e5e8f;
 }

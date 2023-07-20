@@ -15,6 +15,11 @@ const HeaderHTML = `
 const FooterHTML = `
 <div class="footsections">
             <div class="footsec">
+                <p class="feetsec">Support:</p>
+                <a href="./learning/index.html" class="footlink">Learning</a><br>
+            </div>
+
+            <div class="footsec">
                 <p class="feetsec">Company:</p>
                 <a href="https://entertainmasters.github.io/carriers.html" class="footlink">Carriers</a><br>
             </div>
