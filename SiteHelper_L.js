@@ -27,7 +27,7 @@ const FooterHTML = `
             <div class="footsec">
                 <p class="feetsec">Legal:</p>
                 <a href="https://entertainmasters.github.io/privacy.html" class="footlink">Privacy</a><br>
-                <a href="https://entertainmasters.github.io/impress.html" class="footlink">Inpress</a>
+                <a href="https://entertainmasters.github.io/impress.html" class="footlink">Impress</a>
             </div>
         </div>
 
