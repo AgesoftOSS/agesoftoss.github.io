@@ -31,7 +31,7 @@ const FooterHTML = `
             </div>
         </div>
 
-        <p class="copyright">&copy; Copyright 2017 - ${new Date().getFullYear().toString()} Agesoft. All Rights Reserved.</p><br>
+        <p class="copyright">&copy; Copyright Agesoft, ${new Date().getFullYear().toString()}</p><br>
 `
 
 document.addEventListener('DOMContentLoaded', e => {

@@ -43,6 +43,10 @@
     font-family: "JetbrainsMono";
     src: url('./fonts/JetBrainsMono-Regular.ttf');
 }
+@font-face {
+    font-family: "Source-Sans";
+    src: url('./fonts/SourceSans3-Regular.ttf');
+}
 
 * {
     box-sizing: border-box;
@@ -147,7 +151,7 @@ footer {
 .copyright {
     margin: 30px 0px;
     text-align: center;
-    color: white;
+    color: rgb(177, 170, 160);
     font-family: "Montserrat";
 }
 
@@ -216,9 +220,10 @@ footer {
 }
 
 .itxt {
+    font-size: 14px;
     color: white;
     font-family: "Montserrat-Regular";
-    margin: 20px;
+    margin: 15px;
 }
 
 .mainpagearticle {
@@ -249,7 +254,7 @@ footer {
 
 .mpatxt, .aphtxt {
     font-family: "Montserrat-Regular";
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(220,220,220);
     margin-bottom: 30px;
 }
@@ -388,6 +393,7 @@ footer {
 }
 
 .learninghead3 {
+    font-size: 20px;
     text-align: left;
     margin: 60px 0px 0px 100px;
 }
@@ -401,14 +407,14 @@ footer {
 }
 
 .learningtext {
-    font-family: "Montserrat-Regular";
+    font-family: "Source-Sans";
     color: white;
-    font-size: 18px;
+    font-size: 17px;
     margin: 20px 100px;
 }
 
 .learningtext > b {
-    font-family: "Montserrat";
+    font-family: "Source-Sans";
 }
 
 .licensinglink {
@@ -416,7 +422,7 @@ footer {
     margin: 30px;
 }
 
-.licenselink, .licenselink:visited {
+.licenselink, .licenselink:visited, .licensenlink, .licensenlink:visited {
     color:#339ae8;
     font-family: "Montserrat-Regular";
     text-decoration: underline;
@@ -448,7 +454,7 @@ footer {
 }
 
 .learninglink {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .mpahref2 {
@@ -460,4 +466,51 @@ footer {
 
 .learninglectionarrow, .learninglectionarrow:visited {
     color: #1e5e8f;
+}
+
+@media only print {
+    #header {
+        display: block;
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    .logo {
+        text-align: right;
+    }
+
+    .footsections {
+        display: none;
+    }
+
+    .learningheader {
+        padding: 20px;
+    }
+
+    .learninghead {
+        text-decoration: underline;
+    }
+
+    .licenselink {
+        display: none;
+    }
+
+    .learningtext, .learninghead2, .learninghead3 {
+        margin: 20px 30px;
+        text-align: left;
+    }
+
+    .learninghead2 {
+        font-size: 25px;
+    }
+
+    .learninghead {
+        font-size: 30px;
+    }
+
+    .learningtext {
+        font-size: 16px;
+    }
 }
