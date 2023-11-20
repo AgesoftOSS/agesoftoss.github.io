@@ -476,6 +476,10 @@ footer {
     height: 250px;
 }
 
+.acointainer {
+    margin: 80px;
+}
+
 @media only print {
     .logo, .learninghead, .learninghead2, .learninghead3 {
         color: black;
