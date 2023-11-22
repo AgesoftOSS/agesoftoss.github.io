@@ -16,7 +16,7 @@ const FooterHTML = `
 <div class="footsections">
             <div class="footsec">
                 <p class="feetsec">Support:</p>
-                <a href="./index.html" class="footlink">Learning</a><br>
+                <a href="../learning/index.html" class="footlink">Learning</a><br>
             </div>
 
             <div class="footsec">
