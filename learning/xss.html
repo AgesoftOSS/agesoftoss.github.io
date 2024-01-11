@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XSS - Agesoft Learning</title>
+    <link rel="icon" type="image/png" href="../src/favicon.png">
+    <script src="../SiteHelper_L.js" defer></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../mobile.css">
+</head>
+<body>
+    <header id="header"></header>
+
+    <div class="learningheader">
+        <p class="learninghead">Cross Site Scripting (XSS)</p>
+    </div>
+    <p class="licensinglink"><a href="./licencing.html" class="licenselink">Licencing</a></p>
+
+    <p class="learninghead2">What is Cross Site Scripting?</p>
+    <p class="learningtext">Cross Site Scripting ("XSS") is a is a type of security vulnerability that can be found in Web Applications that enables bad actors to inject client-side code into web pages that get's executed by other users.</p>
+    <p class="learninghead3">How does XSS work?</p>
+    <p class="learningtext">XSS works by abusing text inputs that arent properly filtered and get's rendered as part of the html code instead of a string. A XSS attack may inject code that steals user credentials.</p>
+    <p class="learninghead3">How to identify vulnerable spots</p>
+    <p class="learningtext"><b>PHP:</b> Spots where the website gets user input without filtering it with <span class="code">htmlspecialchars()</span></p>
+    <p class="learningtext code-text">&lt;?php<br><span class="indent">.</span>$query = $_GET["search"];<br><span class="indent">.</span>echo "You've searched for: " . <span class="red_lined">$query</span><br> ?&gt;</p>
+    <p class="learningtext"><b>Javascript:</b> Spots where user input get's rendered with <span class="code">.innerHTML</span> instead of <span class="code">.innerText</span></p>
+    <p class="learningtext code-text">const query = document.getElementById("search");<br>document.getElementById("res").<span class="red_lined">innerHTML</span> = query;</p>
+
+    <footer id="footer"></footer>
+</body>
+</html>

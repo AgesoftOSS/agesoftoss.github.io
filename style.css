@@ -481,6 +481,30 @@ footer {
     text-align: center;
 }
 
+.code-text {
+    font-family: "JetbrainsMono";
+    background: rgb(20, 20, 20);
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.code {
+    font-size: 14px;
+    font-family: "JetbrainsMono";
+    margin: 0px 5px;
+}
+
+.indent {
+    margin-left: 20px;
+    color: transparent
+}
+
+.red_lined {
+    text-decoration: underline;
+    color: #991414;
+}
+
 @media only print {
     .logo, .learninghead, .learninghead2, .learninghead3 {
         color: black;
@@ -542,5 +566,9 @@ footer {
     .thisisvpn {
         margin-top: 20px;
         height: 170px;
+    }
+
+    .code-text {
+        padding: 10px 30px;
     }
 }
