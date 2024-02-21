@@ -131,4 +131,8 @@
     .acointainer {
         margin: 15px !important;
     }
+
+    .code-text {
+        padding: 15px 25px !important;
+    }
 }
