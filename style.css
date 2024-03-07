@@ -411,11 +411,16 @@ footer {
     padding: 100px;
 }
 
-.learningtext {
+.learningtext, .learningtext_big {
     font-family: "Source-Sans";
     color: white;
     font-size: 17px;
     margin: 20px 100px;
+}
+
+.learningtext_big {
+    margin-top: 50px;
+    font-size: 22px;
 }
 
 .learningtext > b {
@@ -528,7 +533,7 @@ footer {
         color: black;
     }
 
-    .learningtext, .learninglisting {
+    .learningtext, .learninglisting, .learningtext_big {
         color: rgb(30, 30, 30)
     }
 
@@ -562,7 +567,7 @@ footer {
         display: none;
     }
 
-    .learningtext, .learninghead2, .learninghead3 {
+    .learningtext, .learninghead2, .learninghead3, .learningtext_big {
         font-family: "IBM Plex Sans";
         margin: 20px 30px;
         text-align: left;
@@ -584,6 +589,10 @@ footer {
 
     .learningtext {
         font-size: 15px;
+    }
+
+    .learningtext_big {
+        font-size: 20px;
     }
 
     .learningtext > b {
