@@ -54,6 +54,12 @@
     src: url('./fonts/IBMPlexSans-Regular.ttf');
 }
 
+@font-face {
+    font-family: "IBM Plex Sans";
+    src: url('./fonts/IBMPlexSans-Bold.ttf');
+    font-weight: bold;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -518,12 +524,12 @@ footer {
 }
 
 @media only print {
-    .logo, .learninghead, .learninghead2, .learninghead3 {
+    .logo {
         color: black;
     }
 
     .learningtext, .learninglisting {
-        color: rgb(60, 60, 60)
+        color: rgb(30, 30, 30)
     }
 
     #header {
@@ -548,7 +554,8 @@ footer {
     }
 
     .learninghead {
-        text-decoration: underline;
+        font-family: "IBM Plex Sans";
+        color: rgb(100, 100, 100)
     }
 
     .licenselink {
@@ -556,20 +563,31 @@ footer {
     }
 
     .learningtext, .learninghead2, .learninghead3 {
+        font-family: "IBM Plex Sans";
         margin: 20px 30px;
         text-align: left;
     }
 
     .learninghead2 {
+        font-size: 30px;
+        color: rgb(100, 100, 100)
+    }
+
+    .learninghead3 {
         font-size: 25px;
+        color: rgb(100, 100, 100)
     }
 
     .learninghead {
-        font-size: 30px;
+        font-size: 38px;
     }
 
     .learningtext {
-        font-size: 16px;
+        font-size: 15px;
+    }
+
+    .learningtext > b {
+        font-family: "IBM Plex Sans" !important;
     }
 
     .imgtxt {
@@ -583,5 +601,9 @@ footer {
 
     .code-text {
         padding: 10px 30px;
+    }
+
+    .copyright {
+        display: none;
     }
 }
