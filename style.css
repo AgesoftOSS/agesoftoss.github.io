@@ -418,6 +418,12 @@ footer {
     margin: 20px 100px;
 }
 
+.shiftright {
+    margin-left: 150px;
+    font-family: "Source-Sans";
+    color: white;
+}
+
 .learningtext_big {
     margin-top: 50px;
     font-size: 22px;
@@ -533,7 +539,7 @@ footer {
         color: black;
     }
 
-    .learningtext, .learninglisting, .learningtext_big {
+    .learningtext, .shiftright, .learningtext_big {
         color: rgb(30, 30, 30)
     }
 
@@ -586,6 +592,11 @@ footer {
 
     .learningtext {
         font-size: 15px;
+    }
+
+    .shiftright {
+        font-family: "IBM Plex Sans" !important;
+        margin-left: 50px !important;
     }
 
     .learningtext_big {
