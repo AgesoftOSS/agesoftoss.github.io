@@ -60,6 +60,10 @@
     font-weight: bold;
 }
 
+font-load {
+    font-family: "IBM Plex Sans";
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
