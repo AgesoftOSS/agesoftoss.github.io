@@ -39,8 +39,22 @@
         display: block !important;
     }
 
+    .container {
+        margin: 20px !important;
+    }
+
     .mainpagearticle, .aboutpagehead, .aboutpagehead2, .aph2, .aph3, .ac_productheader, .learningheader {
         padding: 30px 20px !important;
+    }
+
+    .mpahead, .mpatxt {
+        text-align: center !important;
+    }
+
+    .mpahref {
+        text-align: center;
+        font-size: 14px;
+        margin-right: 0;
     }
 
     .mpahead {
@@ -94,16 +108,24 @@
         font-size: 14px !important;
     }
 
+    .mpatxt {
+        width: auto;
+    }
+
     .aphtxt {
-        font-size: 13px !important;
+        font-size: 14px !important;
     }
 
     .ihead {
         font-size: 20px;
     }
 
+    .ihead_2 {
+        text-align: center !important;
+    }
+
     .projects {
-        margin: 20px !important;
+        margin: 0px !important;
         display: block !important;
     }
 
@@ -138,5 +160,11 @@
 
     .code-text {
         padding: 15px 25px !important;
+    }
+
+    /* KEK */
+
+    .mobile_centre {
+        text-align: center;
     }
 }

@@ -60,6 +60,18 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: "Plus Jakatra Sans";
+    src: url('./fonts/PlusJakartaSans-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('./fonts/Inter-Regular.ttf');
+    font-weight: normal;
+}
+
 font-load {
     font-family: "IBM Plex Sans";
 }
@@ -70,6 +82,22 @@ font-load {
     margin: 0;
 }
 
+/* ------------ Global --------------------*/
+
+:root {
+    --Primarly-Blue: #368bec;
+}
+
+.mpahead, .aphhead, .aphbig, .ihead, .ihead_2, .projectname, .projectsection {
+    font-family: "Plus Jakatra Sans";
+}
+
+.itxt, .projectshortdesc, .projbtnrepo, .projectbtn {
+    font-family: "Inter" !important;
+}
+
+/* --------------------------------------- */
+
 body {
     background: rgb(35,35,35)
 }
@@ -79,8 +107,8 @@ body {
 }
 
 li > a {
-    font-size: 18px;
-    font-family: "Product-Sans";
+    font-size: 16px;
+    font-family: "Inter";
 }
 
 li > a:hover {
@@ -164,30 +192,36 @@ footer {
     text-decoration: none;
 }
 
+.container {
+    margin: 80px;
+}
+
 .ihead {
-    text-align: center;
     color: white;
-    margin: 30px 30px;
+    margin: 30px 0;
     font-size: 30px;
-    font-family: "Montserrat";
+}
+
+.ihead_2 {
+    color: white;
+    margin: 15px 0;
+    font-size: 20px;
 }
 
 .projects {
-    margin: 50px;
     display: grid;
     grid-template-columns: auto auto;
 }
 
 .project {
-    margin: 10px;
     padding: 20px;
     background: rgb(15,15,15);
     border-radius: 15px;
+    margin: 20px 20px 20px 0;
 }
 
 .projectname, .projectshortdesc {
     color: rgb(230,230,230);
-    font-family: "Montserrat";
 }
 
 .projectname {
@@ -196,11 +230,11 @@ footer {
 }
 
 .projectshortdesc {
-    font-family: "Montserrat-Light";
     margin-bottom: 50px;
 }
 
 .projectbtn, .normalbtn {
+    border-radius: 6px;
     background: #1f75ff;
     border: none;
 }
@@ -210,8 +244,7 @@ footer {
 }
 
 .projectsection {
-    margin-left: 80px;
-    font-family: "Montserrat";
+    margin: 50px 0 30px 0;
     color: white;
 }
 
@@ -220,6 +253,7 @@ footer {
 }
 
 .projbtnrepo {
+    border-radius: 6px;
     background: rgb(20,20,20);
     border: solid rgb(65,65,65) 2px;
 }
@@ -231,12 +265,11 @@ footer {
 .itxt {
     font-size: 14px;
     color: white;
-    font-family: "Montserrat-Regular";
-    margin: 15px;
+    margin: 15px 0;
 }
 
 .mainpagearticle {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./src/MainPageGif.gif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://www.tomorrow.city/wp-content/uploads/2023/10/skyscraper_1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,28 +277,36 @@ footer {
 }
 
 .mpahead, .aphhead, .aphhead2 {
-    font-family: "JetbrainsMono";
     color: white;
     font-size: 40px;
     margin-bottom: 15px;
 }
 
 .aphbig {
-    font-family: "Montserrat";
     color: white;
     font-size: 30px;
     margin-bottom: 15px;
 }
 
-.mpahead {
-    font-family: "Entertainmasters-Sans";
-}
-
 .mpatxt, .aphtxt {
-    font-family: "Montserrat-Regular";
+    font-family: "Montserrat";
     font-size: 16px;
     color: rgb(220,220,220);
     margin-bottom: 30px;
+}
+
+.mpatxt {
+    font-family: "Inter";
+    width: 712px;
+}
+
+.aphtxt {
+    font-family: "Inter";
+}
+
+.aphtxt > a {
+    color: var(--Primarly-Blue);
+    text-decoration: underline;
 }
 
 .aboutpagehead2 {
@@ -275,7 +316,6 @@ footer {
 
 .aphhead {
     color: rgb(220,220,220);
-    font-family: "Montserrat";
 }
 
 .solutioninfo {
@@ -341,7 +381,11 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px 120px;
+    padding: 80px 120px;
+}
+
+.skyscrapperbackground > .aphtxt {
+    margin-bottom: 0;
 }
 
 .numbergrid {
@@ -366,24 +410,17 @@ footer {
     font-size: 40px;
 }
 
-.ihead_2 {
-    color: white;
-    margin: 10px 60px;
-    font-size: 20px;
-    font-family: "Montserrat-Regular";
-}
-
 .mpahref {
-    border-radius: 0px;
-    background: transparent;
-    border: solid 2px #382cbf;
+    font-family: "Plus Jakatra Sans";
+    background: rgb(17, 62, 179);
     transition: 0.2s;
+    margin-left: 0;
+    border-radius: 6px;
 }
 
 .mpahref:hover {
    opacity: 100%;
-   background: rgb(0,0, 30);
-   border: solid 2px #0d3c61;
+   background: rgb(14, 51, 143);
 }
 
 .learninghead {
@@ -515,7 +552,7 @@ footer {
 }
 
 .code-text {
-    font-family: "JetbrainsMono";
+    font-family: "JetbrainsMono" !important;
     background: rgb(20, 20, 20);
     padding: 20px 50px;
     border-radius: 10px;
@@ -524,7 +561,7 @@ footer {
 
 .code {
     font-size: 14px;
-    font-family: "JetbrainsMono";
+    font-family: "JetbrainsMono" !important; 
     margin: 0px 5px;
 }
 
@@ -536,96 +573,4 @@ footer {
 .red_lined {
     text-decoration: underline;
     color: #991414;
-}
-
-@media only print {
-    .logo {
-        color: black;
-    }
-
-    .learningtext, .shiftright, .learningtext_big {
-        color: rgb(30, 30, 30)
-    }
-
-    #header {
-        display: block;
-    }
-
-    .nav_links {
-        display: none;
-    }
-
-    .logo {
-        text-align: right;
-        font-size: 20px;
-    }
-
-    .footsections {
-        display: none;
-    }
-
-    .learningheader {
-        padding: 20px;
-    }
-
-    .learninghead {
-        font-size: 40px;
-        font-family: "IBM Plex Sans";
-        color: rgb(100, 100, 100);
-        text-align: left;
-    }
-
-    .licenselink {
-        display: none;
-    }
-
-    .learningtext, .learninghead2, .learninghead3, .learningtext_big {
-        font-family: "IBM Plex Sans";
-        margin: 20px 30px;
-        text-align: left;
-    }
-
-    .learninghead2 {
-        font-size: 30px;
-        color: rgb(100, 100, 100)
-    }
-
-    .learninghead3 {
-        font-size: 25px;
-        color: rgb(100, 100, 100)
-    }
-
-    .learningtext {
-        font-size: 15px;
-    }
-
-    .shiftright {
-        font-family: "IBM Plex Sans" !important;
-        margin-left: 50px !important;
-    }
-
-    .learningtext_big {
-        font-size: 20px;
-    }
-
-    .learningtext > b {
-        font-family: "IBM Plex Sans" !important;
-    }
-
-    .imgtxt {
-        margin: 20px 0px;
-    }
-
-    .thisisvpn {
-        margin-top: 20px;
-        height: 170px;
-    }
-
-    .code-text {
-        padding: 10px 30px;
-    }
-
-    .copyright {
-        display: none;
-    }
 }

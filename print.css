@@ -1,0 +1,91 @@
+@media only print {
+    .logo {
+        color: black;
+    }
+
+    .learningtext, .shiftright, .learningtext_big {
+        color: rgb(30, 30, 30)
+    }
+
+    #header {
+        display: block;
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    .logo {
+        text-align: right;
+        font-size: 20px;
+    }
+
+    .footsections {
+        display: none;
+    }
+
+    .learningheader {
+        padding: 20px;
+    }
+
+    .learninghead {
+        font-size: 40px;
+        font-family: "IBM Plex Sans";
+        color: rgb(100, 100, 100);
+        text-align: left;
+    }
+
+    .licenselink {
+        display: none;
+    }
+
+    .learningtext, .learninghead2, .learninghead3, .learningtext_big {
+        font-family: "IBM Plex Sans";
+        margin: 20px 30px;
+        text-align: left;
+    }
+
+    .learninghead2 {
+        font-size: 30px;
+        color: rgb(100, 100, 100)
+    }
+
+    .learninghead3 {
+        font-size: 25px;
+        color: rgb(100, 100, 100)
+    }
+
+    .learningtext {
+        font-size: 15px;
+    }
+
+    .shiftright {
+        font-family: "IBM Plex Sans" !important;
+        margin-left: 50px !important;
+    }
+
+    .learningtext_big {
+        font-size: 20px;
+    }
+
+    .learningtext > b {
+        font-family: "IBM Plex Sans" !important;
+    }
+
+    .imgtxt {
+        margin: 20px 0px;
+    }
+
+    .thisisvpn {
+        margin-top: 20px;
+        height: 170px;
+    }
+
+    .code-text {
+        padding: 10px 30px;
+    }
+
+    .copyright {
+        display: none;
+    }
+}
